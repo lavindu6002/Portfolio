@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--project start date - 25-02-2026 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lavindu Manith - Undergraduate at University of Moratuwa </title>
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 821px)" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar" class="flex s-around bg-color">
+        <div class="left-nav">
+            <h2 class="t-white">Lavindu Manith</h2>
+        </div>
+        <div class="right-nav">
+            <ul class="flex">
+                <li><a href="#home" class="t-white roboto">Home</a></li>
+                <li><a href="#about" class="t-white roboto">About Me</a></li>
+                <li><a href="#skills" class="t-white roboto">Skills</a></li>
+                <li><a href="#contact" class="t-white roboto">Contact</a></li>
+                <li><a href="#" class="t-white roboto" onclick="openPopup()">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="bottom">
+        <div class="bottom-nav flex s-center items-center">
+            <ul class="flex s-around items-center">
+                <a href="#home">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-house"></i></li>
+                </a>
+                <a href="#about">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-user"></i></li>
+                </a>
+                <a href="#skills">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-code"></i></li>
+                </a>
+                <a href="#" onclick="openPopup()">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-brands fa-medium"></i></li>
+                </a>
+                <a href="#contact">
+                    <li class="bottomo-hover flex s-center items-center">
+                        <i class="fa-solid fa-address-book"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <section id="home" class="flex s-around sw-80 m-auto">
+        <div class="home-left flex items-center">
+            <div class="home-content"><br><br>
+        <br><h4 class="t-white">Hi, I am</h4>
+                <h1 class="t-blue">Lavindu Manith</h1>
+                <h4 class="poppinss t-white">Undergraduate at<a class="t-blue"> University Of Moratuwa</a></h4>
+                <a href="#contact">
+                    <button href="#contact"
+                        class="btn poppins">Contact Me
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="home-right flex s-center items-center">
+            <div class="circle flex s-center items-center" id="mainImage">
+                <img src="./Images/main.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about"><br><br>
+        <br><h1 class="t-center my-2 t-white f-2">About Me</h1>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <img src="./Images/secondary.jpg" alt="" style="width: 50%;">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1 class="t-white m-b-1 poppins">Lavindu Manith</h1>
+                    <p class="t-white poppins">I am an undergraduate at the University of Moratuwa with a passion for technology. 
+                        I have skills in HTML, CSS, and JavaScript, and I enjoy building clean and fast websites.<br><br>
+                        I also have industrial experience in computer hardware and software troubleshooting, where 
+                        I fix technical issues and keep systems running smoothly.<br>In addition, I work with social 
+                        media management to help grow brand awareness and customer engagement.</p>
+                    <a class="btn live poppins" id="hireme"
+                        href="https://www.linkedin.com/in/lavindumanith/">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills"><br><br><br>
+        <h1 class="t-center my-2 t-white f-2">Skills</h1>
+        <div class="services-container flex s-around h-50">
+        <div class=" skills-left flex s-center items-center">
+            <img src="./Images/skills.png" alt="skills">
+        </div>
+        <div class="skills-right flex items-center">
+            <div class="skillss-container">
+                <div class="html bar p-relative"><span class="bar-content left t-white">HTML</span><span
+                        class="bar-content right-skills t-white">95%</span></div>
+                <div class="mgt bar p-relative"><span class="bar-content left t-white">Social Media Management</span><span
+                        class="bar-content right-skills t-white">90%</span></div>
+                <div class="softwarehdd bar p-relative"><span class="bar-content left t-white">Computer Hardware/Software Troubleshooting</span><span
+                        class="bar-content right-skills t-white">90%</span></div>
+                <div class="css bar p-relative"><span class="bar-content left t-white">CSS</span><span
+                        class="bar-content right-skills t-white">70%</span></div>
+                <div class="js bar p-relative"><span class="bar-content left t-white">JavaScript</span><span
+                        class="bar-content right-skills t-white">60%</span></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="services"><br><br>
+        <div class="services-container flex s-center">
+            <div class="test-item flex f-col items-center">
+                <img src="./Images//developer.png" alt="">
+                <h1 class="t-white poppins">Web Development</h1>
+                <p class="t-white poppins">Web development is rapidly growing across every industry. Today, 
+                    almost every startup and business needs a strong online presence through a website. With 
+                    my passion for development, I can help you create a clean, fast, and modern website tailored 
+                    to your startup or business.</p>
+            </div>
+            <div class="test-item flex f-col items-center">
+                <img src="./Images//social-media-management.png" alt="">
+                <h1 class="t-white poppins">Social Media Management</h1>
+                <p class="t-white poppins">Social media is a powerful force shaping the future. I can help grow 
+                    your brand awareness by professionally managing your social media platforms, while also 
+                    working to increase customer engagement and loyalty.</p>
+            </div>
+            <div class="test-item flex f-col items-center">
+                <img src="./Images//startup.png" alt="">
+                <h1 class="t-white poppins">Technical Troubleshooters</h1>
+                <p class="t-white poppins">I specialize as a computer hardware and software troubleshooting 
+                    technician, identifying and resolving technical issues efficiently. From diagnosing hardware
+                     faults to fixing software errors, I ensure systems run smoothly, securely, and with optimal performance.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="m-b-1"><br><br><br>
+        <h1 class=" t-center my-2 t-white f-2">Contact Me</h1>
+        <div class="contact-container flex s-around items-centers">
+            <div class="form" id="contactForm">
+                <form action="" id="contactFrom">
+                    <div class="name form-div">
+                        <input type="text" name="name" id="name" class="poppins" placeholder="Enter Your Name">
+                    </div>
+                    <div class="email form-div">
+                        <input type="email" name="email" id="email" class="poppins" placeholder="Enter Your Email"
+                            required>
+                    </div>
+                    <div class="phone form-div">
+                        <input type="phone" name="phone" id="phone" class="poppins" placeholder="Enter Your Phone"
+                            required>
+                    </div>
+                    <div class="textarea form-div">
+                        <textarea name="text" id="textarea" cols="30" rows="10" class="poppins"
+                            placeholder="Enter Messages"></textarea>
+                    </div>
+                    <button type="submit" class="btn poppins" id="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <ul class="flex s-center w-80 m-auto my-2 res">
+            <li><a href="#home" class="poppinss">Home</a></li>
+            <li><a href="#about" class="poppinss">About</a></li>
+            <li><a href="#skills" class="poppinss">Skills</a></li>
+            <li><a href="#" class="poppinss" onclick="openPopup()">Blog</a></li>
+            <li><a href="#contact" class="poppinss">Contact</a></li>
+        </ul>
+        <ul class="flex s-center w-80 font-awesome ">
+            <a href="https://www.linkedin.com/in/lavindumanith/" target="_blank">
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </a>
+            <a href="https://github.com/lavindu6002" target="_blank">
+                <li><i class="fa-brands fa-github"></i></li>
+            </a>
+            <a href="https://www.instagram.com/la_wolfe3" target="_blank">
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </a>
+            <a href="https://web.facebook.com/lavindu06" target="_blank">
+                <li><i class="fa-brands fa-facebook"></i></li>
+            </a>
+            <a href="https://medium.com/@lavindu.manith" target="_blank">
+                <li><i class="fa-brands fa-medium"></i></li>
+            </a>
+        </ul>
+        <p class="t-center my-2 poppins"> 2026 &copy; All Rights Reserved - <span class="cpy-white poppins">Lavindu Manith</span></p>
+
+    </footer>
+
+    <div id="scroll-top" onclick="scrolltop()">
+        <span><i class="fa-solid fa-arrow-up"></i></span>
+    </div>
+    <div id="blogPopup" class="popup">
+    <div class="popup-content" onclick="goToBlog()">
+        <h2>📖 Getting Started with HTML and CSS</h2>
+        <p>If you wanted to build a website, the first two things you need to learn are HTML and CSS...</p>
+        <span class="close-btn" onclick="closePopup(event)">&times;</span>
+    </div>
+</div>
+<script src="./script.js"></script>
+
+</body>
+
+</html>
